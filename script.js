@@ -1,6 +1,6 @@
 const GITHUB_DATA_URL =
   "https://raw.githubusercontent.com/argalimun-dev/smart-building-batch-2/main/data.json";
-const API_URL = "https://YOUR_VERCEL_APP.vercel.app/api/upload";
+const API_URL = "https://smart-building-batch-2.vercel.app/api/upload";
 
 async function loadGallery() {
   const res = await fetch(GITHUB_DATA_URL);
